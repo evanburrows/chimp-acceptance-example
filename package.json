@@ -1,0 +1,14 @@
+{
+  "name": "chimp-acceptance-example",
+  "version": "0.0.1",
+  "description": "Example cucumber acceptance testing with chimp.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chimp": "^0.47.2"
+  }
+}
