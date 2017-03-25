@@ -4,7 +4,9 @@
   "description": "Example cucumber acceptance testing with chimp.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "phantomjs": "node_modules/.bin/chimp --path=tests --browser=phantomjs",
+    "firefox": "node_modules/.bin/chimp --path=tests --host 127.0.0.1 --port 4444 --browser=firefox",
+    "chrome": "node_modules/.bin/chimp --path=tests --host 127.0.0.1 --port 4444 --browser=chrome"
   },
   "author": "",
   "license": "ISC",
